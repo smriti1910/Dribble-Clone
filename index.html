@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dribbble</title>
+<style>
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+header {
+  background-color: #222;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+nav {
+  display: flex;
+  gap: 20px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+.hero {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.hero h2 {
+  margin-bottom: 10px;
+}
+.hero button {
+  background-color: #f5f5f5;
+  color: #222;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 250px;
+}
+.card img {
+  width: 100%;
+}
+.card-content {
+  padding: 10px;
+}
+.card-content h3 {
+  margin-top: 0;
+}
+.card-content .stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.card-content .stats i {
+  color: #007bff;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <a href="#" class="logo">Dribbble</a>
+    <nav>
+      <a href="#">Shots</a>
+      <a href="#">Designers</a>
+      <a href="#">Teams</a>
+      <a href="#">Community</a>
+      <a href="#">Jobs</a>
+    </nav>
+    <div>
+      <button>Sign up</button>
+      <button>Sign in</button>
+      <input type="text" placeholder="Search">
+    </div>
+  </header>
+  <div class="hero">
+    <h2>What are you working on?</h2>
+    <p>Dribbble is show and tell for designers.</p>
+    <button>Learn more</button>
+    <button>Sign up</button>
+  </div>
+  <main>
+    <div class="card">
+      <img src=".\img\Future.png" alt="Famous">
+      <div class="card-content">
+        <h3>Famous</h3>
+        <div class="stats">
+          <i class="fas fa-eye"></i> 4,044
+          <i class="fas fa-heart"></i> 14
+          <i class="fas fa-comment"></i> 200
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src=".\img\balkan.jpg" alt="Balkan Brothers">
+      <div class="card-content">
+        <h3>Balkan Brothers</h3>
+        <div class="stats">
+          <i class="fas fa-eye"></i> 2,404
+          <i class="fas fa-heart"></i> 13
+          <i class="fas fa-comment"></i> 230
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src=".\img\jan.png" alt="Jan Losort">
+      <div class="card-content">
+        <h3>Jan Losort</h3>
+        <div class="stats">
+          <i class="fas fa-eye"></i> 3,000
+          <i class="fas fa-heart"></i> 17
+          <i class="fas fa-comment"></i> 204
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src=".\img\mittias.png" alt="Mattias Johansson">
+      <div class="card-content">
+        <h3>Mattias Johansson</h3>
+        <div class="stats">
+          <i class="fas fa-eye"></i> 2,002
+          <i class="fas fa-heart"></i> 32
+          <i class="fas fa-comment"></i> 100
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src=".\img\russian.jpg" alt="Rusian Bliz">
+      <div class="card-content">
+        <h3>Rusian Bliz</h3>
+        <div class="stats">
+          <i class="fas fa-eye"></i> 2,000
+          <i class="fas fa-heart"></i> 5
+          <i class="fas fa-comment"></i> 175
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src=".\img\paperpillar.png" alt="Paporpillar">
+      <div class="card-content">
+        <h3>Paporpillar</h3>
+        <div class="stats">
+          <i class="fas fa-eye"></i> 2,025
+          <i class="fas fa-heart"></i> 5
+          <i class="fas fa-comment"></i> 100
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src=".\img\alfrey.png" alt="Alfrey Davila | vaneltia">
+      <div class="card-content">
+        <h3>Alfrey Davila | vaneltia</h3>
+        <div class="stats">
+          <i class="fas fa-eye"></i> 1,841
+          <i class="fas fa-heart"></i> 6
+          <i class="fas fa-comment"></i> 158
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src=".\img\A Studio.png" alt="A Studio-JQA">
+      <div class="card-content">
+        <h3>A Studio-JQA</h3>
+        <div class="stats">
+          <i class="fas fa-eye"></i> 2,179
+          <i class="fas fa-heart"></i> 4
+          <i class="fas fa-comment"></i> 158
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src=".\img\Romain.png" alt="Romain Trystram">
+      <div class="card-content">
+        <h3>Romain Trystram</h3>
+        <div class="stats">
+          <i class="fas fa-eye"></i> 1,872
+          <i class="fas fa-heart"></i> 8
+          <i class="fas fa-comment"></i> 148
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src=".\img\mobile.png" alt="InFullMobile">
+      <div class="card-content">
+        <h3>InFullMobile</h3>
+        <div class="stats">
+          <i class="fas fa-eye"></i> 2,187
+          <i class="fas fa-heart"></i> 9
+          <i class="fas fa-comment"></i> 134
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src=".\img\fourplus.png" alt="FourPlus Studio">
+      <div class="card-content">
+        <h3>FourPlus Studio</h3>
+        <div class="stats">
+          <i class="fas fa-eye"></i> 1,371
+          <i class="fas fa-heart"></i> 9
+          <i class="fas fa-comment"></i> 127
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src=".\img\multi.png" alt="MUTI">
+      <div class="card-content">
+        <h3>MUTI</h3>
+        <div class="stats">
+          <i class="fas fa-eye"></i> 728
+          <i class="fas fa-heart"></i> 3
+          <i class="fas fa-comment"></i> 118
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src=".\img\val.png" alt="Alfrey Davila | vaneltia">
+      <div class="card-content">
+        <h3>Alfrey Davila | vaneltia</h3>
+        <div class="stats">
+          <i class="fas fa-eye"></i> 1,000
+          <i class="fas fa-heart"></i> 6
+          <i class="fas fa-comment"></i> 129
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src=".\img\jqa.png" alt="A Studio-JQA">
+      <div class="card-content">
+        <h3>A Studio-JQA</h3>
+        <div class="stats">
+          <i class="fas fa-eye"></i> 1,553
+          <i class="fas fa-heart"></i> 9
+          <i class="fas fa-comment"></i> 112
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src=".\img\trystram.png" alt="Romain Trystram">
+      <div class="card-content">
+        <h3>Romain Trystram</h3>
+        <div class="stats">
+          <i class="fas fa-eye"></i> 940
+          <i class="fas fa-heart"></i> 9
+          <i class="fas fa-comment"></i> 107
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src=".\img\fullmob.png" alt="InFullMobile">
+      <div class="card-content">
+        <h3>InFullMobile</h3>
+        <div class="stats">
+          <i class="fas fa-eye"></i> 1,177
+          <i class="fas fa-heart"></i> 4
+          <i class="fas fa-comment"></i> 902
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+</body>
+</html>
